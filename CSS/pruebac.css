@@ -1,0 +1,92 @@
+/* Fuente para todo el documento */
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container {
+    color: white;
+    margin-top: 20px;
+}
+
+b {
+    color: aqua;
+}
+
+h2 {
+    color: white;
+    margin: 20px 0;
+    font-size: 1.8rem;
+}
+
+/* Imagen */
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para el formulario dentro de .form2 */
+.form2 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+/* Estilo para iframe (video) */
+iframe {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Formulario general */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilo para el botón "Regresar" */
+.regresar-btn {
+    display: inline-block;
+    background-color: aqua;
+    color: black;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.regresar-btn:hover {
+    background-color: #00b8b8;
+    transform: scale(1.05);
+}
